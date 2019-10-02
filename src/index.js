@@ -6,7 +6,7 @@ import Charts from "./components/Charts";
 import Navbar from "./components/Navbar";
 
 import saveToLocalStorage from './hooks/useLocalStorage';
-import setDarkMode from './hooks/setDarkMode';
+import setDarkMode from './hooks/useDarkMode';
 
 import "./styles.scss";
 
