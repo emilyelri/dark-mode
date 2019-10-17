@@ -5,6 +5,9 @@ import axios from "axios";
 import Charts from "./components/Charts";
 import Navbar from "./components/Navbar";
 
+import saveToLocalStorage from './hooks/useLocalStorage';
+import setDarkMode from './hooks/useDarkMode';
+
 import "./styles.scss";
 
 const App = () => {
